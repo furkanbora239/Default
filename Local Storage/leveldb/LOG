@@ -1,0 +1,15 @@
+2025/01/24-19:23:43.150 4 Reusing MANIFEST /home/furkanbora/.config/google-chrome/Default/Local Storage/leveldb/MANIFEST-000001
+2025/01/24-19:23:43.159 4 Recovering log #4
+2025/01/24-19:23:43.160 4 Reusing old log /home/furkanbora/.config/google-chrome/Default/Local Storage/leveldb/000004.log 
+2025/01/24-19:23:58.110 5 Level-0 table #8: started
+2025/01/24-19:23:58.116 5 Level-0 table #8: 43629 bytes OK
+2025/01/24-19:23:58.123 5 Delete type=0 #4
+2025/01/24-19:33:48.860 5 Level-0 table #10: started
+2025/01/24-19:33:48.898 5 Level-0 table #10: 60742 bytes OK
+2025/01/24-19:33:48.904 5 Delete type=0 #7
+2025/01/24-19:52:35.342 5 Level-0 table #12: started
+2025/01/24-19:52:35.349 5 Level-0 table #12: 73818 bytes OK
+2025/01/24-19:52:35.356 5 Delete type=0 #9
+2025/01/24-19:53:34.246 5 Level-0 table #14: started
+2025/01/24-19:53:34.252 5 Level-0 table #14: 66237 bytes OK
+2025/01/24-19:53:34.259 5 Delete type=0 #11

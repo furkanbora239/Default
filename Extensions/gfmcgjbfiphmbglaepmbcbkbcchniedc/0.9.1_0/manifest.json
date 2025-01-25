@@ -1,0 +1,43 @@
+{
+   "author": "OSKA ad blocker",
+   "background": {
+      "persistent": true,
+      "scripts": [ "js/background.js" ]
+   },
+   "browser_action": {
+      "default_icon": {
+         "128": "icons/icon128.png",
+         "16": "icons/icon16.png",
+         "300": "icons/icon300.png",
+         "48": "icons/icon48.png"
+      },
+      "default_popup": "html/popup.html",
+      "default_title": "__MSG_extName__"
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "js/content.js" ],
+      "match_about_blank": true,
+      "matches": [ "http://*/*", "https://*/*" ],
+      "run_at": "document_start"
+   } ],
+   "content_security_policy": "script-src 'self'; object-src 'self'",
+   "default_locale": "en",
+   "description": "__MSG_extShortDesc__",
+   "icons": {
+      "128": "icons/icon128.png",
+      "16": "icons/icon16.png",
+      "300": "icons/icon300.png",
+      "48": "icons/icon48.png"
+   },
+   "incognito": "split",
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEApqF8gUEZjYu/++cBCUxfI2Pj5hBSdckfigrA7U2g9z+WM6We+rLATVLvCxB0BhQsGLWMS+39oh7Sp610W2jgLQGw7kUDesZDsJJGNew8TQRgXG3X8FpbDxMFY6Yv5qWt7Xe+Qc2HTQQPI0djvwdFeANXS9QNuvSy0vsxHJWtqUjSfccelJZvaeMiPA+WaUwLKD9nL0j8PtgfOqCAHi6Z17hJ8Nllf7WkVAtIbYsOOcRjqJTHPlG15j16L6fxaXS3KYcCeTXbYKepaMOJ4Qf+2P650rqkFavPProA9s8JSM6sg72thKzLi2j9fYpB+8te8zDoGmxGn43LfdhLR2PDHwIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "55.0",
+   "name": "__MSG_extName__",
+   "permissions": [ "privacy", "storage", "unlimitedStorage", "webNavigation", "webRequest", "webRequestBlocking", "cookies", "\u003Call_urls>" ],
+   "short_name": "__MSG_extName__",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.9.1",
+   "web_accessible_resources": [ "/web_accessible_resources/*" ]
+}
